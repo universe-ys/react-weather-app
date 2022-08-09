@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 날씨 조회 API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://home.openweathermap.org/](https://home.openweathermap.org/)
 
-## Available Scripts
+# postman & 날씨 data 조회
 
-In the project directory, you can run:
+- Current Weather Data
+- One Call API
 
-### `npm start`
+# 개발환경 setting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npx create-react-app weather-app`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm i @emotion/react @emotion/styled @mui/icons-material @mui/material @m
+ui/styled-engine-sc` material icon
 
-### `npm test`
+`npm i react-icons` react-icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm i swiper` swiper 
 
-### `npm run build`
+`npm i recharts` recharts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm i sass`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 날씨 조회 API 를 이용한 상태관리 개발(Context API)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 오늘 날씨 정보 컴포넌트 개발
 
-### `npm run eject`
+- 도시, 현재 날씨, 온도
+- 체감온도, 최저 기온, 최고 기온
+- 일출, 일몰, 습도, 바람
+- 날씨 그래프 탭
+- 날씨, 습도, 바람 그래프
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Heroku 배포
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://www.heroku.com/](https://www.heroku.com/)
